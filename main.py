@@ -1,5 +1,5 @@
 def main():
-    workhours = (input('45'))
+    workhours = int(input('Enter the work hours'))
     reg_hours = 40
     reg_rate = 18.25
     ov_rate = 27.78
