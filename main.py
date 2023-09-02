@@ -11,22 +11,22 @@ def main():
     overtime_wage = overtime * ov_rate
     regular_wage = reg_hours * reg_rate
     total_wage = regular_wage + overtime_wage
-# overtime = 45 - 40
-# overtime_wage = 45 * 27.78
-# regular_wage = 40 *18.25
-# total_wage = 18.25 + 27.18
+    # overtime = 45 - 40
+    # overtime_wage = 45 * 27.78
+    # regular_wage = 40 *18.25
+    # total_wage = 18.25 + 27.18
 
 
 
-# print(f"Regular hours: {40} Regular Charge: {18.25}")
-print(f"Regular hours: {40} Regular Charge: {reg_hours}")
-print(f"Overtime hours: {45} Overtime Charge:  {overtime:.2f}")
-print(f"Total wage : {total_wage:.2f}")
+    # print(f"Regular hours: {40} Regular Charge: {18.25}")
+    print(f"Regular hours: {40} Regular Charge: {reg_hours}")
+    print(f"Overtime hours: {45} Overtime Charge:  {overtime:.2f}")
+    print(f"Total wage : {total_wage:.2f}")
 
    ##################################################
    # Do not delete the return statement
    ##################################################
-return regular_wage, overtime_wage, total_wage
+    return regular_wage, overtime_wage, total_wage
 
 if __name__ == '__main__':
     main()
